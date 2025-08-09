@@ -15,7 +15,12 @@
           "mode": "raw",
           "raw": "{\"name\":\"St. Xavier's School\",\"address\":\"12 Main Road, Kochi\",\"latitude\":9.9312,\"longitude\":76.2673}"
         },
-        "url": { "raw": "http://localhost:3000/addSchool", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["addSchool"] }
+        "url": {
+          "raw": "https://school-api-backend-k3vf.onrender.com/addSchool",
+          "protocol": "https",
+          "host": ["school-api-backend-k3vf", "onrender", "com"],
+          "path": ["addSchool"]
+        }
       },
       "response": []
     },
@@ -24,7 +29,16 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": { "raw": "http://localhost:3000/listSchools?latitude=9.9312&longitude=76.2673", "protocol": "http", "host": ["localhost"], "port": "3000", "path": ["listSchools"], "query": [{ "key": "latitude", "value": "9.9312" }, { "key": "longitude", "value": "76.2673" }] }
+        "url": {
+          "raw": "https://school-api-backend-k3vf.onrender.com/listSchools?latitude=9.9312&longitude=76.2673",
+          "protocol": "https",
+          "host": ["school-api-backend-k3vf", "onrender", "com"],
+          "path": ["listSchools"],
+          "query": [
+            { "key": "latitude", "value": "9.9312" },
+            { "key": "longitude", "value": "76.2673" }
+          ]
+        }
       },
       "response": []
     }
